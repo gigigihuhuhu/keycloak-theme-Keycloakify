@@ -1,0 +1,34 @@
+@import url(./assets/fonts/geist/index.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body.kcBodyClass {
+    @apply bg-white bg-no-repeat bg-center bg-fixed;
+    @apply font-geist;
+}
+
+.kcHeaderWrapperClass {
+    @apply hidden;
+}
+
+.kcHeaderClass {
+    @apply flex items-center justify-center w-full bg-[url('./assets/img/logo-200.svg')] bg-no-repeat bg-center h-20 mt-20;
+}
+
+.kcLoginClass {
+    @apply flex flex-col items-center justify-center;
+}
+
+.kcFormCardClass {
+    @apply p-4 rounded-xl w-[410px] border border-gray-200 shadow-none;
+}
+
+.kcFormHeaderClass #kc-page-title{
+    @apply hidden;
+}
+
+.kcButtonClass {
+    @apply py-3;
+}
