@@ -63,4 +63,5 @@ const classes = {
     //    "font-geist"
     //),
     //kcHeaderWrapperClass: twMerge("text-3xl font-bold underline")
+    kcHtmlClass: "",
 } satisfies { [key in ClassKey]?: string };
